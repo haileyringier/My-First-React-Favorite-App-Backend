@@ -1,24 +1,11 @@
-# README
+# My First React Favorites App Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My first application using React to set and update state, featuring a picture board that allos a user to add pictures to their favorites section, delete and add pictures using a controller form with data that persists. 
 
-Things you may want to cover:
+the front end repository can be found [here](https://github.com/haileyringier/My-First-React-Favorites-App-Frontend).
 
-* Ruby version
+ Set up:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ 1. Run `rails db:migrate`
+ 1. Then `rails db:seed`
+ 1. Run `rails s` to start server.
